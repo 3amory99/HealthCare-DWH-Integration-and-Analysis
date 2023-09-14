@@ -29,16 +29,19 @@ The ETL process extracts data from Excel files (Billing, Episode, Patient, Servi
 Data transformation steps include segmentation, tokenization, and other NLP preprocessing techniques as needed.
 Historical data is tracked using the Date Dimension.
 
-**Database Star Schema**
-![Database Star Schema](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/star%20schema.PNG)
+**SSAS OLAP Analysis Cube**:
 
 
+**Datawarehouse Star Schema**
+![Datawarehouse Star Schema](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/star%20schema.PNG)
 
-![Database Star Schema](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/SSIS%20Package.PNG)
+**SSIS Package**
+![SSIS Package](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/SSIS%20Package.PNG)
 
+**Patient Dimension Data Flow**
+![Patient Dimension Data Flow](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/DFT_DimPatients.PNG)
 
-![Database Star Schema](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/DFT_DimPatients.PNG)
-![Database Star Schema](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/SSIS%20Package.PNG)
-![Database Star Schema](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/Analysis%20cube.PNG)
+**SSAS OLAP Cube**
+![SSAS OLAP Cube](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/Analysis%20cube.PNG)
 
 
