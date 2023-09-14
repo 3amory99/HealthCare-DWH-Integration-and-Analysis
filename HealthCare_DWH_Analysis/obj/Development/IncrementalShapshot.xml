@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>HealthCare_DWH_Analysis</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>N/swFD1icwISJQc9Jy9lpKnKSns=9/7/2023 7:02:03 PM9/7/2023 7:02:03 PM</TimeStamp>
+        <ID>
+          <String>Healthcare DWH DS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>m3ipy26gpworXAZf7G1LlmU15fY=9/7/2023 7:02:34 PM9/7/2023 7:02:34 PM</TimeStamp>
+        <ID>
+          <String>Healthcare DWH DSV</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VLIy4G4f9q8MCtHiwgVC7B0qIuw=9/7/2023 8:17:42 PM9/7/2023 7:03:12 PM</TimeStamp>
+        <ID>
+          <String>Dim Patients</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zloiYEqr+q5JTFCTcm8ysfb8j/g=9/7/2023 8:17:57 PM9/7/2023 7:03:12 PM</TimeStamp>
+        <ID>
+          <String>Dim Services</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>rR1M7vXci4D2XluVPomNy5p/Bw0=9/7/2023 10:29:03 PM9/7/2023 7:03:12 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>dKj0ury7c6sa6oCi0b0meXc1+JU=9/7/2023 8:18:21 PM9/7/2023 7:03:12 PM</TimeStamp>
+        <ID>
+          <String>Dim Episodes</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>AUD9vXGbsoNtJRrycUl8GBhncXQ=9/7/2023 11:02:05 PM9/7/2023 7:03:12 PMN2R8jbYl4W7PWxARBpgmrY65H8g=9/7/2023 7:03:12 PM9/7/2023 7:03:12 PM</TimeStamp>
+        <ID>
+          <String>All Schema</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>6L19OQ+fuP3+kIveM+F160jATZo=9/7/2023 7:00:41 PM9/7/2023 7:00:41 PM</TimeStamp>
+      <ID>
+        <String>HealthCare_DWH_Analysis</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-09-07T20:02:07.996667Z</LastDeployed>
+</DeploymentSnapshot>

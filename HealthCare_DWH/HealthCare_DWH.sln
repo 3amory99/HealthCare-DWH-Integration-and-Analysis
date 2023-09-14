@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "HealthCare_DWH", "HealthCare_DWH.dtproj", "{911BF74E-3915-47AC-94B2-5494BE52D93A}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "HealthCare_DWH_Analysis", "..\HealthCare_DWH_Analysis\HealthCare_DWH_Analysis.dwproj", "{0DEE1192-F878-4005-BFCE-67405134537D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{911BF74E-3915-47AC-94B2-5494BE52D93A}.Development|Default.ActiveCfg = Development
+		{911BF74E-3915-47AC-94B2-5494BE52D93A}.Development|Default.Build.0 = Development
+		{0DEE1192-F878-4005-BFCE-67405134537D}.Development|Default.ActiveCfg = Development
+		{0DEE1192-F878-4005-BFCE-67405134537D}.Development|Default.Build.0 = Development
+		{0DEE1192-F878-4005-BFCE-67405134537D}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {798081E3-7BF4-4D96-B6AA-6921DCA83138}
+	EndGlobalSection
+EndGlobal

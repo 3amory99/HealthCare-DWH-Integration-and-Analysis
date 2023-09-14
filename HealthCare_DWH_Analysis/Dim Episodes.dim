@@ -1,0 +1,277 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="537d0222-fa13-424e-b5cd-fe364a983aaf" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Episodes</ID>
+  <Name>Dim Episodes</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2711" scrolltop="-3937" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9144" y="12340" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimEpisodes" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3683" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000630e000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimEpisodes" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2711</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3937</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="57bb8f72-4eec-437f-9c52-ab3cdda51332">
+    <DataSourceViewID>Healthcare DWH DSV</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="6a56e104-6864-4e59-a689-eb6986789149">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="823251e2-bace-413c-86a8-a76525a4ecce">
+      <ID>Episode Key SK</ID>
+      <Name>Episode Key SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b7311153-69af-4813-b7f9-8a3328d13ec2">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e26ef54a-fff3-464d-89e1-e450542a1128">
+            <TableID>dbo_DimEpisodes</TableID>
+            <ColumnID>Episode_Key_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="35d214d6-0982-4af2-a333-049636fc6fa7">
+          <AttributeID>Episode Key BK</AttributeID>
+          <Name>Episode Key BK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7c8c449b-3af8-4af1-ac18-3cc5ddb6417e">
+          <AttributeID>Start Date</AttributeID>
+          <Name>Start Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8c603895-3c1e-49d9-963d-2b8fd87b4f73">
+          <AttributeID>End Date</AttributeID>
+          <Name>End Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="347196d5-5543-475b-a793-45087745884d">
+          <AttributeID>Episode Type Key</AttributeID>
+          <Name>Episode Type Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="61597f10-161c-4aac-a0d1-3c81e2df1845">
+          <AttributeID>Episode Type</AttributeID>
+          <Name>Episode Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="69361b45-cd7f-4aaa-9ea4-bc45154471f8">
+          <AttributeID>Bed Key</AttributeID>
+          <Name>Bed Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="298a4d94-9804-411e-8717-5b2b79fa14b8">
+          <AttributeID>Bed Clinic</AttributeID>
+          <Name>Bed Clinic</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b791e62a-38f6-48df-98dd-29d6fc15c90d">
+          <AttributeID>Valid From</AttributeID>
+          <Name>Valid From</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="aee975ac-75aa-432f-a432-6c47b945e4d6">
+          <AttributeID>Valid To</AttributeID>
+          <Name>Valid To</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b7247c3d-c402-4cff-9646-1fecccab3da5">
+      <ID>Episode Key BK</ID>
+      <Name>Episode Key BK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d3ea2e56-ee22-4752-aab5-a107f0030519">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ee9ae4d1-fcc7-4433-b6d0-5ab33028267a">
+            <TableID>dbo_DimEpisodes</TableID>
+            <ColumnID>Episode_Key_BK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e90a4ef6-50b9-4e5f-a0f2-23da6daed098">
+      <ID>Start Date</ID>
+      <Name>Start Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6ca473cd-04cd-497e-ad27-a406f9f94fc6">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e383987f-968e-4ef4-b2ef-bc290bf7400c">
+            <TableID>dbo_DimEpisodes</TableID>
+            <ColumnID>Start_Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c2bb34b0-e6b8-45fd-8ba6-b6d9a39b1af7">
+      <ID>End Date</ID>
+      <Name>End Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="94ac3348-8bbc-4b19-bee9-e76ea1787815">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4401c73b-9053-47c3-99cf-14df34b82d83">
+            <TableID>dbo_DimEpisodes</TableID>
+            <ColumnID>End_Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="20c102da-4b7a-40f1-a75a-eeaf2ffaba34">
+      <ID>Episode Type Key</ID>
+      <Name>Episode Type Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2585f3ff-18db-411b-bba1-4c26955680b5">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="83acb11e-4e51-4dfc-8c32-9c17f29a319c">
+            <TableID>dbo_DimEpisodes</TableID>
+            <ColumnID>Episode_Type_Key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5b3e86b3-2c6e-441f-a2ca-f9a4e955f84d">
+      <ID>Episode Type</ID>
+      <Name>Episode Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6f8e3259-d97b-4550-8e4e-83c0304227b8">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5ca28384-52f1-48c0-b987-8b1073b389bb">
+            <TableID>dbo_DimEpisodes</TableID>
+            <ColumnID>Episode_Type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6d13d889-4c68-419c-8745-148e63c6b3e7">
+      <ID>Bed Key</ID>
+      <Name>Bed Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="47a04471-1c5a-43f5-8d11-a79256607a77">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="08ce182e-1439-402f-a7e2-715fee6c3c01">
+            <TableID>dbo_DimEpisodes</TableID>
+            <ColumnID>Bed_Key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3d97fb77-bf4d-4ddd-a914-e5180042d82c">
+      <ID>Bed Clinic</ID>
+      <Name>Bed Clinic</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4872672f-4529-4c58-a925-1d3c2c0adaac">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ab21882c-3824-4e52-bb46-12af513349d1">
+            <TableID>dbo_DimEpisodes</TableID>
+            <ColumnID>Bed_Clinic</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a0d43614-60ec-4863-b010-0b4e0cc7d610">
+      <ID>Valid From</ID>
+      <Name>Valid From</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4d407a89-ea1a-438a-9dc4-5f7a7eed53a6">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0230e6ff-4bbd-4cd4-bb50-533ec6cadf33">
+            <TableID>dbo_DimEpisodes</TableID>
+            <ColumnID>_ValidFrom</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="740d4103-c972-489b-bbc8-7a13ee0c55d1">
+      <ID>Valid To</ID>
+      <Name>Valid To</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cc490144-2ef5-4d19-ae8a-5980537e0ea5">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8bc7a5c7-1833-4c5a-a5a5-6c64b0b7e5bd">
+            <TableID>dbo_DimEpisodes</TableID>
+            <ColumnID>_ValidTo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
