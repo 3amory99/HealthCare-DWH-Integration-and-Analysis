@@ -48,15 +48,19 @@ An all-star schema is implemented within the OLAP Cube, connecting the fact tabl
 The OLAP Cube provides a multidimensional view of healthcare data, enabling advanced analytics and data exploration.
 
 **Datawarehouse Star Schema**:
+
 ![Datawarehouse Star Schema](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/star%20schema.PNG)
 
 **SSIS Package**:
+
 ![SSIS Package](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/SSIS%20Package.PNG)
 
 **Patient Dimension Data Flow**:
+
 ![Patient Dimension Data Flow](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/DFT_DimPatients.PNG)
 
 **SSAS OLAP Cube**
+
 ![SSAS OLAP Cube](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/Analysis%20cube.PNG)
 
 
