@@ -32,3 +32,13 @@ Historical data is tracked using the Date Dimension.
 **Database Star Schema**
 ![Database Star Schema](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/star%20schema.PNG)
 
+
+
+![Database Star Schema](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/SSIS%20Package.PNG)
+
+
+![Database Star Schema](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/DFT_DimPatients.PNG)
+![Database Star Schema](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/SSIS%20Package.PNG)
+![Database Star Schema](https://github.com/3amory99/HealthCare-DWH-Integration-and-Analysis/blob/master/images/Analysis%20cube.PNG)
+
+
